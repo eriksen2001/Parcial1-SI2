@@ -1,0 +1,18 @@
+# Evitar archivos sensibles o innecesarios
+.env
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Django + general
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.env
+*.DS_Store
+.idea/
+.vscode/
+node_modules/
+media/
