@@ -40,7 +40,7 @@ DEBUG = os.environ.get("DEBUG", "False") == "True"
 
 # ALLOWED_HOSTS = ['192.168.0.6', 'localhost', '127.0.0.1']
 # ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
-ALLOWED_HOSTS = ['parcial1-si2-production-3530.up.railway.app']
+ALLOWED_HOSTS = ['primerparcialsi2-production.up.railway.app']
 
 
 # Application definition
@@ -117,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
-    "parcial1-si2-production-3530.up.railway.app",
+    "https://primerparcialsi2-production.up.railway.app",
 ]
 
 CORS_ALLOWED_ORIGINS = [
